@@ -1,0 +1,27 @@
+button {
+  position: absolute;
+  bottom: 1rem;
+  padding: 7px 25px;
+  right: 1rem;
+  border-radius: 0.4rem;
+  border: 3px solid hsl(217, 16%, 45%);
+  color: lighten(hsl(217, 16%, 45%), 20%);
+  background: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+button:hover {
+  background-color: rgba(#ffffff, 0.8);
+  color: hsl(229, 25%, 31%);
+  cursor: pointer;
+}
+.attribution{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 1rem;
+}
+.attribution a{
+  text-decoration: none;
+  color:white;
+}

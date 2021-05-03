@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  border: 3px solid hsl(217, 16%, 45%);
+  border-radius: 15px;
+  max-width: 70%;
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 700px) {
+  .header {
+    max-width: 300px;
+  }
+  .text{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;  
+  }
+  .score-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: black;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .score-box .score-box_score {
+    font-size: 3rem;
+    color: #3399ff;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 700px) {
+.text {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 2rem;
+  color: #fff;
+}
+.score-box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 12px 40px;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.score-box .score-box_score {
+  font-size: 3rem;
+  color: #3399ff;
+  padding-bottom: 20px;
+}
+}

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Akaya Telivigala", cursive;
+  background: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  color: #fff;
+}
+

@@ -1,0 +1,108 @@
+.play {
+  max-width: 300px;
+  position: relative;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 700px) {
+  .triangle{
+    width: 200px;
+  }
+  .icon{
+    height: 100px;
+    width: 100px;
+    border: 1rem solid;
+    border-radius: 50%;
+  }
+  .icon--paper{
+    background-size: 10px;
+  }
+  .icon--paper {
+    background-color: #fff;
+    background-image: url("../img/icon-paper.svg");
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(230, 89%, 62%);
+    transform: translateY(-3rem) translateX(2.5rem) ;
+  }
+  .icon--rock {
+    background-color: #fff;
+    background-image: url("../img/icon-rock.svg");
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(349, 71%, 52%);
+   transform: translateY(-3rem) translateX(-2.5rem);
+  }
+  .icon--scissors {
+    background-color: #fff;
+    background-image: url("../img/icon-scissors.svg");
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(39, 89%, 49%);
+    transform: translateY(5.5rem);
+  }
+}
+.triangle {
+  position: absolute;
+  align-self: center;
+}
+.items {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 700px){
+.icon {
+  height: 160px;
+  width: 160px;
+  border: 1.5rem solid;
+  border-radius: 50%;
+}
+.icon--paper {
+  background-color: #fff;
+  background-image: url("../img/icon-paper.svg");
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: hsl(230, 89%, 62%);
+  transform: translateY(-6rem) translateX(4rem);
+}
+.icon--paper:hover {
+  transform: translateY(-6rem) translateX(4rem) scale(1.1)
+    rotate3d(0, 1, 0, 180deg);
+  transition: all 0.8s ease-in-out;
+}
+.icon--rock {
+  background-color: #fff;
+  background-image: url("../img/icon-rock.svg");
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: hsl(349, 71%, 52%);
+ transform: translateY(-6rem) translateX(-4rem) ;
+}
+.icon--rock:hover {
+  transform: translateY(-6rem) translateX(-4rem) scale(1.1)
+    rotate3d(0, 1, 0, 180deg);
+  transition: all 0.8s ease-in-out;
+}
+.icon--scissors {
+  background-color: #fff;
+  background-image: url("../img/icon-scissors.svg");
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: hsl(39, 89%, 49%);
+  transform: translateY(7rem);
+}
+.icon--scissors:hover {
+  transform: translateY(7rem) scale(1.1)
+    rotate3d(0, 1, 0, 180deg);
+  transition: all 0.8s ease-in-out;
+}
+}

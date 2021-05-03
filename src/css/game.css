@@ -1,0 +1,207 @@
+@media screen and (min-width: 700px){
+  .game {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .game_you {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+  }
+  .game_you .text {
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+  }
+  .icon-paper {
+    height: 200px;
+    width: 200px;
+    border: 1.5rem solid;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/icon-paper.svg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(230, 89%, 62%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-paper--winner {
+    transform: scale(1.1);
+    background-color: rgb(114, 236, 114);
+  }
+  .icon-scissors {
+    height: 200px;
+    width: 200px;
+    border: 1.5rem solid;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/icon-scissors.svg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(39, 89%, 49%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-scissors--winner {
+    transform: scale(1.1);
+    background-color: rgb(125, 247, 125);
+  }
+  .icon-rock {
+    height: 200px;
+    width: 200px;
+    border: 1.5rem solid;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/icon-rock.svg");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(349, 71%, 52%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-rock--winner {
+    transform: scale(1.1);
+    background-color: rgb(126, 221, 126);
+  }
+  .result_play .text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 30px;
+  }
+  .game_computer {
+    padding-left: 10px;
+  }
+  .game_computer .text {
+    padding-bottom: 2rem;
+  }
+  .play-again {
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+  .play-again:hover {
+    color: red;
+  }
+  .game_computer .counter {
+    font-size: 8rem;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(71, 67, 67);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .game_you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .game_you .text {
+    padding-top: 20px;
+    padding-bottom: 2rem;
+    color: rgb(39, 228, 96);
+  }
+  .icon-paper {
+    height: 100px;
+    width: 100px;
+    border: 1rem solid;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/icon-paper.svg");
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(230, 89%, 62%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-paper--winner {
+    transform: scale(1.1);
+    background-color: rgb(114, 236, 114);
+  }
+  .icon-scissors {
+    height: 100px;
+    width: 100px;
+    border: 1rem solid;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/icon-scissors.svg");
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(39, 89%, 49%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-scissors--winner {
+    transform: scale(1.1);
+    background-color: rgb(125, 247, 125);
+  }
+  .icon-rock {
+    height: 100px;
+    width: 100px;
+    border: 1rem solid;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/icon-rock.svg");
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: hsl(349, 71%, 52%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon-rock--winner {
+    transform: scale(1.1);
+    background-color: rgb(126, 221, 126);
+  }
+  .result_play{
+    padding-top: 20px;
+  }
+  .result_play .text {
+    margin-left:40% ;
+    text-decoration: underline rgb(245, 66, 54);
+  }
+  .game_computer {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .game_computer .text {
+    padding-top: 30px;
+    padding-bottom: 2rem;
+    color: rgb(114, 236, 114);
+  }
+  .play-again {
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+  .play-again:hover {
+    color: red;
+  }
+  .game_computer .counter {
+    font-size: 4rem;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: rgb(71, 67, 67);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
