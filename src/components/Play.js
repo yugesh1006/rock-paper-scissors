@@ -11,15 +11,15 @@ const Play = ({setMyChoice}) => {
         <div className="play">
             <img src={Triangle} alt="my_triangle" className="triangle"/>
             <div className="items">
-                <Link to="/game">
+                <Link to="/rock-paper-scissors/game">
                     <div data-id="paper" onClick={setChoice} className="icon icon--paper">
                     </div>
                 </Link>
-                <Link to="/game">
+                <Link to="/rock-paper-scissors/game">
                     <div data-id="scissors" onClick={setChoice} className="icon icon--scissors"> 
                     </div>
                 </Link>
-                <Link to="/game">
+                <Link to="/rock-paper-scissors/game">
                     <div data-id="rock" onClick={setChoice} className="icon icon--rock">
                     </div>
                 </Link>
@@ -28,4 +28,4 @@ const Play = ({setMyChoice}) => {
     )
 }
 
-export default Play
+export default Play;

@@ -15,10 +15,10 @@ function App() {
     <div className="container">
       <Header score={score}/>
       <Switch>
-        <Route exact path="/"> 
+        <Route exact path="/rock-paper-scissors/"> 
           <Play setMyChoice={setMyChoice}/>
         </Route>
-        <Route exact path="/game">
+        <Route exact path="/rock-paper-scissors/game">
           <Game myChoice={myChoice} score={score} setScore={setScore}/>
         </Route>
       </Switch>

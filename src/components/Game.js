@@ -75,15 +75,15 @@ const Game = ({score,myChoice,setScore}) => {
     </div>
     {playerWin==="win" && <div className="result_play">
       <span className="text">YOU WIN</span>
-      <Link to="/" className="play-again" onClick={()=>setComputer()}>Play Again</Link>
+      <Link to="/rock-paper-scissors/" className="play-again" onClick={()=>setComputer()}>Play Again</Link>
     </div>}
     {playerWin==="lose" && <div className="result_play">
       <span className="text">YOU LOSE</span>
-      <Link to="/" className="play-again" onClick={()=>setComputer()}>Play Again</Link>
+      <Link to="/rock-paper-scissors/" className="play-again" onClick={()=>setComputer()}>Play Again</Link>
     </div>}
     {playerWin==="draw" && <div className="result_play">
       <span className="text">DRAW</span>
-      <Link to="/" className="play-again" onClick={()=>setComputer()}>Play Again</Link>
+      <Link to="/rock-paper-scissors/" className="play-again" onClick={()=>setComputer()}>Play Again</Link>
     </div>}
     <div className="game_computer">
       <span className="text">COMPUTER PICKED</span>
